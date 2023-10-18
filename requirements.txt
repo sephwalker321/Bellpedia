@@ -1,0 +1,31 @@
+numpy
+mpi4py
+requests
+pytest
+pytest-cov
+scipy
+tqdm
+h5py
+pandas
+recordclass
+cufflinks
+dash
+dash_core_components
+dash_html_components
+googlemaps
+matplotlib
+plotly
+PyYAML
+responses
+scikit_learn
+openpyxl
+pyaudio
+cartopy
+geos
+shapely
+geopandas
+geoplot
+jupyter
+#sudo apt-get install portaudio19-dev python-pyaudio python3-pyaudio
+# sudo apt-get install libproj-dev proj-data proj-bin  
+# sudo apt-get install libgeos-dev  

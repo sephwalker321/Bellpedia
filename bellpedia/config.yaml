@@ -1,0 +1,16 @@
+version: 1
+
+#Units
+distance_unit: "miles"
+
+#Plotting density
+dpi: 250
+
+#Data Location
+data_folder: "bellpedia/data"
+user_data_folder: "my_data"
+plots_folder: "plots"
+
+#Tower data settings
+ring_type: full-circle ring
+dove_data_refresh: false

@@ -1,0 +1,12 @@
+env/
+plots/
+dist/
+bellpedia.egg-info/
+*/.ipynb_checkpoints/*
+.ipynb_checkpoints/*
+.vscode/
+*.pyc
+my_data/myList.xlsx
+myList_OUTPUT.xlsx
+Examples_OUTPUT.xlsx
+my_data/.*
