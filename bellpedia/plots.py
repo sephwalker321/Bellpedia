@@ -9,6 +9,7 @@ import numpy as np
 import matplotlib as mpl
 import matplotlib.pyplot as plt
 import contextily as ctx
+import os
 
 from bellpedia.world import World
 
@@ -59,10 +60,15 @@ class Geoplots:
         -------
 
         """
+        #Make plot directory
+        plot_dir = f"{self.config.working_dir}/{self.config.plot_dir}"
+        if os.path.exists(plot_dir) == False:
+            os.mkdir(plot_dir)
+            
         if fileprefix != "":
-            self.filepath = f"{self.config.working_dir}/{self.config.plot_dir}/{fileprefix}_"
+            self.filepath = f"{plot_dir}/{fileprefix}_"
         else:
-            self.filepath = f"{self.config.working_dir}/{self.config.plot_dir}/"
+            self.filepath = f"{plot_dir}/"
         return
         
     def restrict_plot(self,place):
